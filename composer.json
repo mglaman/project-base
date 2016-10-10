@@ -52,7 +52,7 @@
         "drupal/commerce_message": "dev-8.x-2.x",
         "drupal/devel": "1.x-dev",
         "drupal/geoip": "2.x-dev",
-        "drupal/physical": "dev-8.x-1.x",
+        "drupal/physical": "dev-8.x-1.x"
     },
     "require-dev": {
         "behat/mink": "~1.7",
