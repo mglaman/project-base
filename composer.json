@@ -17,6 +17,22 @@
         "commerce_base": {
             "type": "vcs",
             "url": "https://github.com/drupalcommerce/commerce_base"
+        },
+        "commerce_demo": {
+            "type": "vcs",
+            "url": "https://github.com/mglaman/commerce_demo"
+        },
+        "commerce_message": {
+            "type": "vcs",
+            "url": "https://github.com/mglaman/commerce_message"
+        },
+        "commerce_authnet": {
+            "type": "vcs",
+            "url": "https://github.com/drupalcommerce/commerce_authnet"
+        },
+        "physical": {
+            "type": "vcs",
+            "url": "https://github.com/mglaman/physical"
         }
     },
     "config": {
@@ -30,7 +46,13 @@
         "drupal/core": "~8.2.0",
         "drupal/console": "~1.0",
         "drupal/commerce": "2.x-dev",
-        "drupalcommerce/commerce_base": "dev-8.x-1.x"
+        "drupalcommerce/commerce_base": "dev-8.x-1.x",
+        "drupal/commerce_demo": "dev-master",
+        "drupal/commerce_authnet": "dev-8.x-1.x",
+        "drupal/commerce_message": "dev-8.x-2.x",
+        "drupal/devel": "1.x-dev",
+        "drupal/geoip": "2.x-dev",
+        "drupal/physical": "dev-8.x-1.x",
     },
     "require-dev": {
         "behat/mink": "~1.7",
